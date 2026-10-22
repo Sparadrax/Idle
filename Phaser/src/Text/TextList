@@ -1,0 +1,4 @@
+/**
+ * Idle game prototype. The outer page embeds a Phaser scene; the prototype currently displays animated sprites and a scrolling background.
+ */
+let text = [];

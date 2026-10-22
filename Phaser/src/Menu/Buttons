@@ -1,0 +1,13 @@
+/**
+ * Idle game prototype. The outer page embeds a Phaser scene; the prototype currently displays animated sprites and a scrolling background.
+ */
+let buttons = {
+    "Fetch Water": {
+        "Time": 10,
+        "isVisible": true
+    },
+    "Water Plants" : {
+        "Time": 10,
+        "isVisible": true
+    }
+}

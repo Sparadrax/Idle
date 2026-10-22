@@ -1,0 +1,27 @@
+<!-- Idle game prototype. The outer page embeds a Phaser scene; the prototype currently displays animated sprites and a scrolling background. -->
+<html>
+    <head>
+        <link 
+            rel="stylesheet" 
+            href="/Lib/Bootstrap4.0/css/bootstrap.min.css">
+        <title>Louis du Beux</title>
+        <link rel="stylesheet" href="/Theme.css?v=1">
+</head>
+    <body class="w-100 h-100"  style="background-color: #040218;">    
+        <!-- Shared navigation is populated by /NavBar.js. -->
+        <div id="nav-placeholder" style="height: 6%;">
+        </div>
+        <div id="gc">
+            <iframe src="Phaser/index.html" title="idle" style="width: 100%; height: 94%;"></iframe>
+        </div>
+        <script 
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+            ></script>
+        <script 
+            src="/Lib/Bootstrap4.0/js/bootstrap.min.js"
+            ></script>
+        
+
+        <script src="/NavBar.js" defer></script>
+</body>
+</html>

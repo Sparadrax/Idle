@@ -1,0 +1,12 @@
+/**
+ * Idle game prototype. The outer page embeds a Phaser scene; the prototype currently displays animated sprites and a scrolling background.
+ */
+/**
+ * Request that the named prototype menu button be hidden.
+ *
+ * @param name - CSS custom-property name or display label used by this operation.
+ * @returns No value is returned; updates the current state, scene, or interface.
+ */
+function disableMenu(name) {
+    Buttons.buttons[Name].isVisible = false;
+}
